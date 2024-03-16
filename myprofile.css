@@ -413,27 +413,71 @@ section{
     margin-bottom: -10rem
   }
 
- 
-  /* Base styles for the body */
-/* body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-} */
-
-/* Responsive styles for the body */
-@media only screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-}
-
+ /* Tablet and small screen sizes */
 @media only screen and (max-width: 576px) {
-    body {
-        font-size: 12px;
+    /* Adjusting font sizes */
+    :root {
+        --big-font: 2rem;
+        --medium-font: 1.4rem;
+        --p-font: 0.7rem;
+    }
+
+    /* Adjusting padding and margin for sections */
+    section {
+        padding: 20px 5%;
+    }
+
+    /* Adjusting padding for social icons */
+    .social {
+        padding-left: 3%;
+        padding-bottom: 2rem;
+    }
+
+    /* Adjusting margin for images */
+    .Image {
+        margin-left: 3%;
+        margin-bottom: 1rem;
+    }
+
+    /* Adjusting margin for about section */
+    #About-1 img {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    /* Adjusting margin for skill images */
+    .img-skill img {
+        margin-left: 3%;
+        margin-top: -12rem;
+    }
+
+    /* Adjusting margin for footer social icons */
+    .footer-social {
+        margin-left: -10%;
+        padding-left: 10%;
+    }
+
+    /* Adjusting margin for footer */
+    .footer {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Adjusting margin for copyright */
+    .copyright {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    /* Adjusting grid layout for portfolio */
+    .Portfolio-content {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-left: 0;
     }
 }
+
+
 
   
